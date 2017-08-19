@@ -1,0 +1,23 @@
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: #E5E4D7;
+}
+
+.brand-logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+    float: left;
+}
+
+.brand-img {
+    height: 100%;
+}
+
+.brand-title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 20px 20px 60px;
+}
