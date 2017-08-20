@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RouteInput from './RouteInput';
+import Result from './Result';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <RouteInput />
+          <Result />
         </div>
       </div>
     );

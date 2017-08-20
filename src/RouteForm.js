@@ -47,7 +47,7 @@ class RouteForm extends Component {
           </div>
         </div>
 
-        <div className="clearfix submit-button-wrapper">
+        <div className={"clearfix submit-button-wrapper" + (this.state.kilometers !== '' && this.state.transportation !== '' ? '' : ' hide')}>
           <div className="submit-button">
             Show my results
           </div>
