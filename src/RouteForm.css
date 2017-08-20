@@ -46,10 +46,16 @@ input {
 
 .submit-button-wrapper {
     padding-top: 40px;
+
+}
+
+@media only screen and (max-device-width: 780px) {
+    .submit-button-wrapper {
+        margin-bottom: 350px;
+    }
 }
 
 .submit-button {
-    margin-top: 20px;
     margin: 0 auto;
     width: 30%;
     padding: 20px;
