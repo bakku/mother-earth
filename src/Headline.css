@@ -1,0 +1,26 @@
+.Headline {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+
+.title {
+    letter-spacing: 5px;
+    font-size: 40px;
+    padding-top: 40px;
+    color: #8D7665;
+}
+
+.title-mother {
+    margin: 0;
+}
+
+.title-earth {
+    margin: 0;
+}
+
