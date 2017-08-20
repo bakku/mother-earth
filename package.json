@@ -2,8 +2,9 @@
   "name": "mother-earth",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://bakku.github.io/mother-earth/build",
+  "homepage": "http://bakku.github.io/mother-earth/build",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.11"
