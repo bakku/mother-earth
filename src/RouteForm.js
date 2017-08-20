@@ -5,8 +5,11 @@ import 'font-awesome/css/font-awesome.css';
 class RouteForm extends Component {
   constructor(props) {
     super(props);
+
     this.handleKilometerChange = this.handleKilometerChange.bind(this);
     this.setActiveTransportation = this.setActiveTransportation.bind(this);
+    this.showResultsHandler = this.showResultsHandler.bind(this);
+
     this.state = { kilometers: '', transportation: '' };
   }
 
@@ -20,6 +23,10 @@ class RouteForm extends Component {
     this.setState({
       transportation: transportation
     });
+  }
+
+  showResultsHandler() {
+    this.props.showResultsHandler(this.state.kilometers, this.state.transportation);
   }
 
   render() {
@@ -48,7 +55,7 @@ class RouteForm extends Component {
         </div>
 
         <div className={"clearfix submit-button-wrapper" + (this.state.kilometers !== '' && this.state.transportation !== '' ? '' : ' hide')}>
-          <div className="submit-button">
+          <div className="submit-button" onClick={this.showResultsHandler}>
             Show my results
           </div>
         </div>

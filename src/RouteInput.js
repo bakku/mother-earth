@@ -8,7 +8,7 @@ class RouteInput extends Component {
     return (
       <div className="RouteInput">
         <Headline /> 
-        <RouteForm />
+        <RouteForm showResultsHandler={this.props.showResultsHandler} />
       </div>
     )
   }

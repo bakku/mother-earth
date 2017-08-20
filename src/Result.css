@@ -1,3 +1,9 @@
 .Result {
     height: 100vh;
 }
+
+.details {
+    padding-top: 50px;
+    font-size: 30px;
+    color: #584A3F;
+}
