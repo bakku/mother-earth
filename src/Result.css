@@ -7,3 +7,20 @@
     font-size: 30px;
     color: #584A3F;
 }
+
+.ending-slogan {
+    padding-top: 100px;
+}
+
+.ending-slogan p {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
+.ending-slogan p.load {
+    opacity: 1;
+}

@@ -33,7 +33,7 @@ class RouteForm extends Component {
     return (
       <div className="RouteForm">
         <p>
-          How far was the distance of your last big trip?
+          How far was the distance of your last trip?
         </p>
         <div>
           <input type="text" onChange={this.handleKilometerChange} placeholder="Distance in kilometers.." className="input-kilometer" />
