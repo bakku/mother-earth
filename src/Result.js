@@ -91,6 +91,16 @@ class Result extends Component {
             </p>
           </div>
         </div>
+
+        <div className="footer">
+          <a href="https://github.com/bakku/mother-earth" className="left">
+            <i className="fa fa-github"></i> Github 
+          </a>
+
+          <a href="https://github.com/bakku/mother-earth/blob/master/README.md" className="right">
+            <i className="fa fa-info"></i> Sources/Credits
+          </a>
+        </div>
       </div>
     )
   }

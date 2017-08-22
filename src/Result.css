@@ -24,3 +24,19 @@
 .ending-slogan p.load {
     opacity: 1;
 }
+
+.footer {
+    padding-top: 100px;
+}
+
+.footer a {
+    color: #584A3F;
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .right {
+    float: right;
+}
